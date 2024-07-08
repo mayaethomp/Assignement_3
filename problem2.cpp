@@ -13,10 +13,12 @@ int main () {
 // Declare and initialize variables
   int num = 0;
   int set = 0;
-  int smallest = 0;
+  int smallest = 999999999;
   int largest = 0;
   double average = 0;
   double total = 0;
+
+
 
 // Prompt the user to enter a number or -9999 to complete the set 
   cout << "Enter a number or -9999 to exit: " << endl;
@@ -32,21 +34,13 @@ int main () {
         break;
       }
 
-    // Finding smallest value
-      void findMin(int, int);
-      findMin(num, smallest); {
-        if (num >= smallest) {
-          smallest = num;
+     if (num < smallest) {
+            smallest = num;
         }
-      }
 
-    // Finding largest value
-      void findMax(int, int);
-      findMax(num, largest); {
-        if (num >= largest) {
-          largest = num;
+        if (num > largest) {
+            largest = num;
         }
-      } 
 
     cout << "Enter a number or -9999 to exit " << endl;
     cin >> num; 
