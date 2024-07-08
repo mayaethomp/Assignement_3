@@ -1,6 +1,6 @@
 CS 1 - C++ Assignment
 
-Problem 1 - 
+Problem 1 - Pennies earned program
 
 Problem 2 - 
 
